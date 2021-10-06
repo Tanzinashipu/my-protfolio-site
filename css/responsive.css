@@ -1,0 +1,144 @@
+
+@media (max-width: 450px){
+  .banner_content .banner_img h4 {
+    font-size: 20px;
+  }
+  #about_section h2:before, #skill_section h2:before, #Services_section h2:before, #work_section h2:before, #contact_section h2:before {
+    top: 46%;
+    
+  }
+  #about_section h2:after, #skill_section h2:after, #Services_section h2:after, #work_section h2:after, #contact_section h2:after {
+    bottom: 51%;
+  }
+  .about_left {
+    text-align: center;
+   }
+   .about_right .download_btn {
+    margin-left:90px;
+    margin-top: 20px;
+  }
+  .about_right .contct_btn {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .navbar-toggler span{
+    color:#fa7a7b;
+    font-size: 30px;
+    background: transparent;
+  }
+  .navbar-brand {
+    margin-left: 12px;
+   }
+  ul.navbar-nav.ml-auto {
+      text-align: center;
+      margin-top: 40px;
+      background: #000;
+      padding: 30px 0px;
+      border-radius: 20px;
+  }
+  .about_right h3 {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .about_right h4 {
+      text-align: center;
+  }
+  .skills_bar {
+      width: 100%;
+    }
+    .Service_icone {
+    left: 200px;
+
+  }
+  .Service_text {
+    margin-bottom: 80px;
+}
+#Services_section {
+    padding:40px 0px;
+
+}
+.social_footer {
+    margin-bottom: 20px;
+}
+.copyright span {
+    font-size: 16px;
+}
+.about_left {
+    text-align: center;
+}
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-toggler span{
+    color:#fa7a7b;
+    font-size: 30px;
+    background: transparent;
+  }
+  ul.navbar-nav.ml-auto {
+      text-align: center;
+      margin-top: 40px;
+      background: #000;
+      padding: 30px 0px;
+      border-radius: 20px;
+  }
+  .about_right h3 {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .about_right h4 {
+      text-align: center;
+  }
+  .skills_bar {
+      width: 100%;
+    }
+    .Service_icone {
+    left: 235px;
+
+}
+.about_left {
+    text-align: center;
+}
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.navbar-toggler span{
+  color:#fa7a7b;
+  font-size: 30px;
+  background: transparent;
+}
+ul.navbar-nav.ml-auto {
+    text-align: center;
+    margin-top: 40px;
+    background: #000;
+    padding: 30px 0px;
+    border-radius: 20px;
+
+}
+.about_right h3 {
+    margin-top: 30px;
+    text-align: center;
+}
+.about_right h4 {
+    text-align: center;
+}
+.skills_bar {
+    width: 90%;
+  }
+  .about_left {
+    text-align: center;
+}
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+ }
